@@ -59,7 +59,7 @@ public class BagServiceImpl implements BagService {
 
         this.bagRepository.save(bag);
         this.itemRepository.save(itemReturn);
-        return this.itemRepository.save(itemReturn);
+        return itemReturn;
     }
 
     public void compareIfProductAreTheSameRestaurant(List<Item> items, Item itemToAdd, Item itemWasAlreadyAdded) {

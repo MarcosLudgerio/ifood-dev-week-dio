@@ -1,5 +1,6 @@
 package me.dio.sacola.resources;
 
+import io.swagger.annotations.Api;
 import lombok.RequiredArgsConstructor;
 import me.dio.sacola.models.Bag;
 import me.dio.sacola.models.Item;
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/ifood/bag")
 @RequiredArgsConstructor
+@Api(value="/ifood/bag")
 public class BagResource {
 
     private final BagService bagService;
@@ -25,7 +27,7 @@ public class BagResource {
     }
 
     @PatchMapping("/close/{bagId}")
-    public Bag fecharSacola(@PathVariable("bagId") Long bagId, @RequestParam("payment") int payment) {
+    public Bag closeBag(@PathVariable("bagId") Long bagId, @RequestParam("payment") int payment) {
         return bagService.closeBag(bagId, payment);
     }
 }
