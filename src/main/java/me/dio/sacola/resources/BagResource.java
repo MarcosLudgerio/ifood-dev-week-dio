@@ -5,7 +5,6 @@ import me.dio.sacola.models.Bag;
 import me.dio.sacola.models.Item;
 import me.dio.sacola.resources.dtos.ItemDTO;
 import me.dio.sacola.services.BagService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

@@ -14,4 +14,4 @@ VALUES (1L, true, 'Arroz', 5.0, 1L),
        (5L, true, 'Coca', 3.0, 3L);
 
 INSERT INTO bag (id, payment_form, closed, total_value, client_id)
-VALUES (1L, false, 0, 0.0, 1L);
+VALUES (1L, 1, false, 0.0, 1L);
