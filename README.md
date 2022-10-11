@@ -11,7 +11,8 @@
 <p align="center">
  <a href="#desc">Description</a> •
  <a href="#features">How do this API work?</a> •
- <a href="#tecnologias">Endpoints</a> • 
+ <a href="#endpoints">Endpoints</a> • 
+ <a href="#techs">Technologies</a> • 
  <a href="#executando">Running the project</a> • 
  <a href="#autor">Author</a>
 </p>
@@ -26,10 +27,19 @@ This is a project developed at Dev Week Ifood developed by Digital Innovation On
 ## ✔️ How do this API work?
 This API simulates a shopping bag where a product can be inserted or removed and the total purchase price is calculated
 
+<div id="endpoints"/>
 
-<div id="tecnologias"/>
+## ✨ Endpoints
 
-## ✨ Tecnologias
+-   [ ] [H2 Database](https://www.h2database.com/html/main.html)
+-   [ ] [Lombok](https://projectlombok.org/)
+-   [ ] [Swagger](https://swagger.io/)
+
+
+
+<div id="techs"/>
+
+## ✨ Technologies
 
 -   [ ] [H2 Database](https://www.h2database.com/html/main.html)
 -   [ ] [Lombok](https://projectlombok.org/)
@@ -37,7 +47,7 @@ This API simulates a shopping bag where a product can be inserted or removed and
 
 <div id="executando" />
 
-## ▶️ Running the tests
+## ▶️ Running the project
 
 Run the commands below in the terminal:
 
