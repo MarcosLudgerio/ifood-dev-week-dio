@@ -31,8 +31,8 @@ This API simulates a shopping bag where a product can be inserted or removed and
 
 ## ✨ Endpoints
 
--   [ ] [H2 Database](https://www.h2database.com/html/main.html)
--   [ ] [Lombok](https://projectlombok.org/)
+-   [ ] *POST* /api/bag/users
+  -   [ ] [Lombok](https://projectlombok.org/)
 -   [ ] [Swagger](https://swagger.io/)
 
 

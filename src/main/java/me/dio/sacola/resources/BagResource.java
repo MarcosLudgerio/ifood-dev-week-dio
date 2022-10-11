@@ -9,9 +9,9 @@ import me.dio.sacola.services.BagService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/ifood/bag")
+@RequestMapping("api/ifood/bag")
 @RequiredArgsConstructor
-@Api(value="/ifood/bag")
+@Api(value="api/ifood/bag")
 public class BagResource {
 
     private final BagService bagService;
