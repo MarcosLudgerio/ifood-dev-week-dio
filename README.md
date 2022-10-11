@@ -12,6 +12,7 @@
  <a href="#desc">Description</a> •
  <a href="#features">How do this API work?</a> •
  <a href="#endpoints">Endpoints</a> • 
+ <a href="#examples">Requests Body</a> • 
  <a href="#techs">Technologies</a> • 
  <a href="#executando">Running the project</a> • 
  <a href="#autor">Author</a>
@@ -20,22 +21,35 @@
 <div id="desc"/>
 
 ## 📝 Description
-This is a project developed at Dev Week Ifood developed by Digital Innovation One. A project is building Restful API using spring boot with other technologies
+
+This is a project developed at Dev Week Ifood developed by Digital Innovation One. A project is building Restful API
+using spring boot with other technologies
 
 <div id="features" />
 
 ## ✔️ How do this API work?
+
 This API simulates a shopping bag where a product can be inserted or removed and the total purchase price is calculated
+
+<div id="examples"/>
+
+## 📑 Requests Body
+Item Bag
+```json
+{
+    "idProduct": 1,
+    "quantity": 2,
+    "idBag": 1
+}
+```
 
 <div id="endpoints"/>
 
 ## ✨ Endpoints
 
--   [ ] *POST* /api/bag/users
-  -   [ ] [Lombok](https://projectlombok.org/)
--   [ ] [Swagger](https://swagger.io/)
-
-
+- **POST** api/ifood/bag
+- **GET** api/ifood/bag/id
+- **PATCH** api/ifood/bag/close/id
 
 <div id="techs"/>
 
