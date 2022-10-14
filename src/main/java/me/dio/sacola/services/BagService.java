@@ -8,5 +8,5 @@ public interface BagService {
     Bag viewBag(Long id);
     Bag closeBag(Long id, int payamentForm);
     Item insertItemInTheBag(ItemDTO item);
-    Bag updateBag(Bag bag);
+    Bag updateBag(Long id, Bag bag);
 }

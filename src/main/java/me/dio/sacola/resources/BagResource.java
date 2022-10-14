@@ -30,4 +30,9 @@ public class BagResource {
     public Bag closeBag(@PathVariable("bagId") Long bagId, @RequestParam("payment") int payment) {
         return bagService.closeBag(bagId, payment);
     }
+
+    @PatchMapping("/{bagId}")
+    public Bag updateBag(@PathVariable("bagId") Long bagId, @RequestParam("payment") Bag bag) {
+        return bagService.updateBag(bagId, bag);
+    }
 }

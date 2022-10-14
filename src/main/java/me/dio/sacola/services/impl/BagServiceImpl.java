@@ -1,7 +1,7 @@
 package me.dio.sacola.services.impl;
 
 import lombok.RequiredArgsConstructor;
-import me.dio.sacola.enumeration.PaymentForm;
+import me.dio.sacola.models.enumeration.PaymentForm;
 import me.dio.sacola.models.Bag;
 import me.dio.sacola.models.Item;
 import me.dio.sacola.models.Restaurant;
@@ -71,7 +71,12 @@ public class BagServiceImpl implements BagService {
 
 
     @Override
-    public Bag updateBag(Bag bag) {
-        return null;
+    public Bag updateBag(Long id, Bag bag) {
+        Bag bagUpdate = this.viewBag(id);
+        bagUpdate.setClient(bag.getClient());
+        bagUpdate.setItems(bag.getItems());
+        bagUpdate.setPayamentForm(bag.getPayamentForm());
+        bagUpdate.setTotalValue(bag.getTotalValue());
+        return this.bagRepository.save(bag);
     }
 }

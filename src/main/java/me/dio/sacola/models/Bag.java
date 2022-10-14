@@ -2,7 +2,7 @@ package me.dio.sacola.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Builder;
-import me.dio.sacola.enumeration.PaymentForm;
+import me.dio.sacola.models.enumeration.PaymentForm;
 
 import javax.persistence.*;
 import java.util.List;

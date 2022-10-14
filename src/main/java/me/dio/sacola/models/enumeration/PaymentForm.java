@@ -1,4 +1,4 @@
-package me.dio.sacola.enumeration;
+package me.dio.sacola.models.enumeration;
 
 public enum PaymentForm {
     CASH, CARD;

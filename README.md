@@ -6,7 +6,6 @@
             <img width="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
 </div>
 
-##
 
 <p align="center">
  <a href="#desc">Description</a> •
